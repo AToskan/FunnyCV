@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CV</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="author" content="Antonio Toscano">
+	<meta name="description" content="Curriculum Vitae digital page">
+	<meta name="keywords" content="CV, Design, Front-end, Web Developing, coding">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style-736.css">
+	<link rel="stylesheet" type="text/css" href="style-980.css">
+	<link rel="stylesheet" type="text/css" href="style-1024.css">
+</head>
+<body>
+	<div class="sfondo">
+		<div class="titulo">
+			<h1>Hello, Hola, Ciao</h1>
+			<h2>welcome on my digital cv</h2>
+		</div>
+		<div class="centrale">
+				<div class="profilo">
+					<img src="img/giphy.gif" width="100px">
+				</div>
+				<div class="inizio">
+					<h2>ANTONIO TOSCANO</h2>
+					<h3>ABOUT ME</h3>
+					<p>Highly motivated to constantly develop my experience, skills and grow professionally. I really enjoy the process of creation and with my positive attitude and passion for learning new programming languages, I believe that I can offer energy and value to a company's projects. </p>
+				</div>
+				<div class="quadro">
+					<div class="requadro">
+						<h2>Work Experience</h2>
+						<div id="requadroBottom"></div>
+						<p>EXPERIENCES & ACCOMPLISHMENTS</p>
+					</div>
+				</div>
+				<section class="work">
+					<div class="core">
+						<div class="webdev">
+							<div class="linea"></div>
+							<h4>Web Developer Front-End <span class="bola b1"></span></h4>
+							<p>Main tasks:</p>
+							<p>- Creating components and features that are directly accessed by a user through the front-end of a website.</p>
+							<p>- Focusing on the visual layout, user interface/interaction, and user experience.</p>
+							<p>- Collaborating with back-end developers and web designers to improve usability.
+							</p>
+						</div>
+						<div class="container">
+						<div class="ux">
+							<h4>UX/UI Designer Freelancer <span class="bola b2"></span></h4>
+							<p>Main tasks:</p>
+							<p>- Consultancy service to diverse business types aimed at the application of a user-centered design process.</p>
+							<p>- UX research, starting from analysis, workshop coordination to user research (interviews and personas), prototyping, usability testing, visual designer briefings.</p>
+							<p>- UI layout, Visual Design and micro animation for webpage and mobile app.</p>
+						</div>
+						</div>
+						<div class="tester">
+							<h4>Software QA Tester Siri (Apple)<span class="bola b3"></span></h4>
+							<p>Main tasks:</p>
+							<p>- Translate possible problems of the software into feasible solutions through identifications of bugs system.</p>
+							<p>- Constant improvement of the quality standards.</p>
+						</div>
+					</div>
+						<div class="bottomline"></div></div>
+				</section>
+				
+				<!-- <img src="img/computer.jpg" alt="computer" id="computer"> -->
+				<section class="parallax">
+					<div></div>
+				</section>
+						<script>
+							$(window).scroll(function(){
+							var wScroll = $(this).scrollTop();
+								
+
+						  	$(".parallax").css("top", -(wScroll * 0.7)+ "px");
+        					 });
+
+							// const parallax = document.getElementById ("parallax");
+							//  	window.addEventListener("scroll", function()
+							//  	{
+							//  		let offset = window.pageYOffset;
+							// 	parallax.style.backgroundPositionY = offset * 0.3 + "px";
+							// 	});
+						</script>
+					
+						
+			<div class="fas fa-arrow-up"></div>
+				<section class="skills">
+					<h2>Skills & Knowledge</h2>
+					<div class="knowledge">
+						<div class="tech">
+							<h3>TECHNICAL</h3>
+							<p>Front-End: HTML, CSS, JS</p>
+							<div class="progress" id="frontend"></div>
+							<p>Wordpress</p>
+							<div class="progress" id="wordpress"></div>
+							<p>Interaction Design</p>
+							<div class="progress" id="intdesign"></div>
+							<p>Design Thinking</p>
+							<div class="progress" id="designthink"></div>
+							<p>User Research</p>
+							<div class="progress" id="userresearch"></div>
+							<p>Prototyping</p>
+							<div class="progress" id="proto"></div>
+						</div>
+						
+						<div class="tools">
+							<h3>TOOLS</h3>
+							<p>Sublime, Brackets, Atom</p>
+							<div class="contenedorr"><div class="progress-right" id="codes"></div></div>
+							<p>Sketch App</p>
+							<div class="contenedorr"><div class="progress-right" id="sketch"></div></div>
+							<p>Adobe Creative Suite</p>
+							<div class="contenedorr"><div class="progress-right" id="adobe"></div></div>
+							<p>Flinto</p>
+							<div class="contenedorr"><div class="progress-right" id="flinto"></div></div>
+							<p>InVision</p>
+							<div class="contenedorr"><div class="progress-right" id="invision"></div></div>
+						</div>
+						<div class="language">
+							<h3>LANGUAGES</h3>
+							<p>Italian native</p>
+							<div class="progress" id="ita"></div>
+							<p>English professional</p>
+							<div class="progress" id="en"></div>
+							<p>Spanish professional</p>
+							<div class="progress" id="spa"></div>
+							<p>Catalan basic</p>
+							<div class="progress" id="cat"></div>
+						</div>
+						<script>
+							// alert($(".webdev").offset().top);
+							// $(".b1").css("top", $(".webdev").offset().top);
+							// $(".b2").css("top", $(".container").offset().top);
+							// $(".b3").css("top", $(".tester").offset().top);
+
+							$(document).scroll(function(){
+
+								// linea seccion Work
+
+								if($(document).scrollTop()>$(".work").offset().top-200){
+									$(".linea").animate({height: "680px"},1000);
+								}	
+
+								// efectos seccion Skills
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#frontend").animate({width: "80%"},1000);
+								}
+
+								if($(document).scrollTop()>100){
+									$(".fa-arrow-up").fadeIn();
+									}else {$(".fa-arrow-up").fadeOut();
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#wordpress").animate({width: "75%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#intdesign").animate({width: "80%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#designthink").animate({width: "78%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#userresearch").animate({width: "76%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#proto").animate({width: "75%"},1000);
+								}
+
+
+
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#codes").animate({width: "80%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#sketch").animate({width: "80%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#adobe").animate({width: "78%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#flinto").animate({width: "73%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#invision").animate({width: "70%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#ita").animate({width: "80%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#en").animate({width: "75%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#spa").animate({width: "75%"},1000);
+								}
+
+								if($(document).scrollTop()>$(".skills").offset().top-200){
+									$("#cat").animate({width: "60%"},1000);
+								}
+							});
+							$(".fa-arrow-up").click(function(){
+								$("html").animate({
+									scrollTop: 0
+								},1000);
+							});
+							$(".skills").scroll(function(){
+								$("#frontend").animate({width: "280px"},1000);
+							});
+						</script>
+					</div>
+					<div id="mac"></div>
+					<!-- <img src="img/mac.jpg" alt="mac"> -->
+				</section>
+				<section class="studies">
+					<h2>STUDY CAREER</h2>
+					<div id="linea"></div>
+					<h3>Education & Certifications</h3>
+					<div class="staf">
+						<h3>CERTIFICADO DE PROFESIONALIDAD<br>Front-end</h3>
+						<h4>Staf Formació Barcelona</h4>
+						<p>Webpage Development, Semantic HTML,<br> JavaScript libreries, Web Layout and SEO</p>
+						<p><i>November 2019 / April 2020</i></p>
+					</div>
+					<div class="bootcamp">
+						<h3>UX/UI Bootcamp</h3>
+						<h4>Ironhack Barcelona</h4>
+						<p>Agile Methodology, Information Architecture,<br> Design Thinking, Interaction Design</p>
+						<p><i>Summer 2017</i></p>
+					</div>
+					<div class="master">
+						<h3>Msc Creative Advertising</h3>
+						<h4>Edinburgh Napier University</h4>
+						<p>Marketing, Brand Identity, Graphic Design, Copy Writting, Planning</p>
+						<p><i>September 2009/2010</i></p>
+					</div>
+					<div class="univ">
+						<h3>Marketing & Labor Right Bachelor Degree</h3>
+						<h4>Universitá degli studi di Teramo, Italia</h4>
+						<p>Marketing, Labor rights and Law</p>
+						<p><i>September 1999/ July 2005</i></p>
+					</div>	
+				</section>
+				<section class="contact">
+					<div class="end">
+						<form action="correo.php" method="post">
+							<label for="nombre">Name:</label>
+							<input type="text" name="first_name" id="nombre">
+							<label for="correo">Email:</label>
+							<input type="mail" name="email" id="correo">
+							<label for="asunto">Subject:</label>
+							<input type="text" name="subject" id="asunto">
+							<label for="message">Message</label>
+							<textarea id="mensaje" name="message"></textarea>
+							<input type="submit" value="Enviar Datos">
+						</form>
+						<div class="social">
+							<i href="#" class="fab fa-twitter"></i>
+							<i href="#" class="fab fa-facebook-f"></i>
+							<i href="#" class="fab fa-linkedin-in"></i>
+							<i href="#" class="far fa-envelope"></i>
+						</div>
+						<div class="copy">
+							<p><small>Copyright 2020 &copy; | Images by <a href="https://pixabay.com/es/" target="_blank">Pixabay</a><br> Designed by <a href="http://eltoscan.com/" target="_blank">Antonio Toscano</a></small></p>
+						</div>
+					</div>
+				</section>
+		</div>
+	</div>
+</body>
+</html>

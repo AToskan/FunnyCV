@@ -1,0 +1,396 @@
+/******* MOVIL ********/		
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Russo+One&display=swap');
+
+:root {
+	--madison: rgba(44, 62, 80, 1);
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 128, 0.4), rgba(0, 0, 128, 0.4)), url(img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+	top: 10px;
+	padding-bottom: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/********* TITOLO ***********/
+
+.titulo {
+	text-align: center;
+	padding: 50px ;
+}
+.titulo h1 {
+	color: white;
+	font-family: 'Russo One', sans-serif;
+	font-weight: lighter;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.titulo h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	color: white;
+	font-size: 20px;
+}
+
+/********* FOTO PROFILO **********/
+
+.profilo {
+	padding: 50px;
+	background-color: rgb(40,40,40);
+}
+.profilo img {
+	border-radius: 10px 10px 0px 0px;
+}
+.centrale {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	box-shadow: 5px 12px 14px 5px rgba(0,0,0,0.55);
+}
+.centrale img {
+	width: 100%;
+	margin-bottom: -4px;
+}
+
+/********* ABOUT ME *********/
+
+.inizio {
+	text-align: center;
+	background-color: white;
+	padding: 50px 0px;
+}
+.inizio h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+	padding: 30px 10px 20px;
+}
+.inizio h3 {
+	color: rgba(0, 0, 0, 0.5);
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 16px;
+	padding: 0px 30px 50px;
+}
+.inizio p {
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: lighter;
+	font-size: 16px;
+	padding: 30px;
+	justify-content: center;
+	margin-bottom: 30px;
+	line-height: 24px;
+	text-align: center;
+}
+.quadro {
+	padding: 0px;
+	background-color: var(--madison);
+	margin: auto;
+	justify-content: center;
+}
+.requadro {
+	justify-content: center;
+	background-color: rgb(16,16,16);
+	padding: 60px 20px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+.requadro h2 {
+	font-weight: lighter;
+	font-size: 20px;
+	color: white;
+	padding-bottom: 20px;
+}
+#requadroBottom {
+ 	margin: auto;
+	width: 200px;
+	border-bottom: solid 1px white;
+}
+.requadro p {
+	font-size: 12px;
+	margin-top: 20px;
+	padding: 10px 0px;
+	letter-spacing: 8px;
+	line-height: 20px;
+}
+
+/********* WORK EXPERIENCE **********/
+
+.work {
+	height: 100%;
+	background-image: linear-gradient(to bottom right, rgba(0, 0, 128, 0.6), rgba(0, 0, 128, 0.6)), url(img/iceberg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+	font-family: 'Montserrat', sans-serif; 
+	padding: 50px 20px;
+	text-align: left;
+	
+}
+
+.parallax {
+	height: 80vh;
+	background-image: url(img/computer.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 100;
+	margin: auto;
+	margin-bottom: -5px;
+	overflow: hidden;	
+}
+.work > div {
+	margin-bottom: 30px; 
+}
+.work h4 {
+	margin-bottom: 20px;
+	color: #00d646;
+}
+.work h2 {
+	background-color: orange;
+}
+.work p {
+	line-height: 20px;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.bottomline {
+	padding: 20px 60px;
+	border-bottom: solid 2px #00d646;
+	width: 200px;
+	margin: auto;
+}
+.bola {
+	width: 10px;
+	height: 10px;
+	background-color: #00d646;
+	position: absolute;
+	z-index: 100;
+	border-radius: 50%;
+}
+.b1, .b2, .b3 {
+	display: none;
+	left: 50%;
+	margin-top: 4px;
+	/*top: 5px;*/
+}
+.linea {
+	display: none;
+	position: absolute;
+	height: 5px;
+	width: 2px;
+	background-color: #00d646;
+	z-index: 100;
+	left: 50%;
+	margin-left: 4px;
+	margin-top: 5px;
+	
+}
+
+/******** SKILLS & KNOWLEDGE **********/
+
+.fa-arrow-up {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #00d646;
+	padding: 10px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	border-radius: 10px;
+	z-index: 100;
+}
+.skills {
+	background-color: var(--madison);
+	/*background-color:  rgb(40,40,40);*/
+	padding-top: 30px;
+	position: relative;
+}
+
+.skills h2 {
+	padding: 20px;
+	color: #00d646;
+	font-weight: lighter;
+}
+.skills img {
+	width: 100%;
+	margin-top: 30px;
+}
+.knowledge {
+	padding: 30px;
+}
+.tech, .language {
+	color: white;
+	line-height: 30px;
+	text-align: left;
+	padding-top: 30px;
+}
+.tools {
+	color: white;
+	line-height: 30px;
+	text-align: right;
+	padding-top: 30px;
+}
+.tech h3, .tools h3, .language h3 {
+	margin-bottom: 20px;
+	font-weight: lighter;
+	color: grey;
+}
+.progress {
+	width: 50px;
+	padding: 3px;
+	background-color: #00d646;
+}
+.contenedorr {
+	display: flex;
+	justify-content: flex-end;
+}
+.progress-right {
+	/*position: absolute;*/
+	right: 30px;
+	width: 50px;
+	padding: 3px;
+	background-color: #00d646;
+}
+#mac {
+	height: 100vh;
+	background-image: url(img/mac.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin: auto;
+	margin-bottom: -5px;
+}
+/********** STUDIES **************/
+
+.studies {
+	background-color: rgb(16,16,16);
+	margin-top: -5px;
+	padding: 30px 0px;
+}
+.studies h2 {
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: lighter;
+	/*letter-spacing: 4px;*/
+	font-size: 16px;
+}
+#linea {
+	border-bottom: solid 2px white;
+	width: 100px;
+	margin: auto;
+}
+.studies > h3 {
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: lighter;
+	letter-spacing: 4px;
+}
+.studies img {
+	width: 100%;
+}
+.staf p:last-of-type, .bootcamp p:last-of-type, .master p:last-of-type, .univ p:last-of-type {
+	color: grey;
+}
+
+.staf, .bootcamp, .master, .univ {
+	font-weight: lighter;
+	color: white;
+	text-align: left;
+	margin: 30px 10px 20px;
+	line-height: 30px;
+	padding: 20px;
+}
+
+.staf h3, .bootcamp h3, .master h3, .univ h3 {
+	margin-bottom: 10px;
+	font-weight: lighter;
+	color: #00d646;
+	font-size: 16px;
+	letter-spacing: 4px;
+}
+.staf h4, .bootcamp h4, .master h4, .univ h4 {
+	font-weight: lighter;
+	color: grey;
+}
+
+/*********** CONTACT *************/
+
+.contact {
+	background-image: url(img/tech.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 0px 0px 10px 10px;
+} 
+.end {
+	height: 100%;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.social {
+	align-items: center;
+	text-align: center;
+	color: white;
+	
+}
+.social, .far, .fab {
+	font-size: 26px;
+	padding-right: 10px;
+	margin: auto;
+	cursor: pointer;	
+}
+form {
+	display: none;
+}
+.copy {
+	margin-top: 30px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	color: white;
+	line-height: 20px;
+	text-align: center;
+	
+}
+.copy a {
+	text-decoration: none;
+	text-decoration: underline;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+

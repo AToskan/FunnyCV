@@ -1,0 +1,128 @@
+/********** LAPTOP **********/
+@media (min-width: 980px){
+
+	.inizio p {
+		padding: 30px 80px;
+	}
+
+/******** WORK EXPERIENCE **********/
+
+	.work {
+		padding: 50px;
+		position: relative;
+	}
+
+	.webdev {
+		padding: 0px 100px 0px 0px;
+		justify-content: flex-start;
+		width: 400px;
+	}
+
+	.ux {
+		padding: 0px 0px 0px 100px;
+		justify-content: flex-end;
+		width: 400px;
+	}
+
+	.container {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.tester {
+		padding: 0px 100px 0px 0px;
+		justify-content: flex-start;
+		width: 400px;
+	}
+	.b1, .b2, .b3 {
+		display: initial;
+		left: 50%;
+		
+	}
+	.linea {
+		display: initial;
+		left: 50%;
+	}
+
+/******* SKILLS & KNOWLEDGE ********/
+
+	.knowledge {
+		padding: 50px;
+	}
+
+	.progress-right {
+		right: 50px;
+	
+	}
+
+	.skills h2 {
+		font-size: 30px;
+	}
+	.skills h3 {
+		font-size: 24px;
+	}
+	.skills p {
+		font-size: 20px;
+		margin: 20px 0px;
+	}
+/******** STUDIES ***********/
+
+	.studies {
+		padding: 80px;
+	}
+	.studies h2 {
+		font-size: 26px;
+	}
+	.studies h3 {
+		font-size: 24px;
+		padding-bottom: 20px;
+	}
+/******** CONTACTS ********/
+
+	.far, .fab {
+		padding: 30px;
+	}
+	
+	.social {
+		margin: auto;
+		justify-content: center;
+	}
+	.formulario {
+			width: 500px;
+			padding: 20px;
+			background-color: turquoise;
+			font-family: sans-serif;
+			color: grey;
+		}
+		form {
+			display: initial;
+			background-color: transparent;
+			padding: 20px;
+		}
+		label, input, textarea {
+			display: block;
+			width: 50%;
+			margin: auto;
+			margin-bottom: 10px;
+			border-radius: 4px;
+		}
+		input, textarea {
+			border: solid 1px #ccc;
+			padding: 10px;
+		}
+		textarea {
+			resize: vertical;
+			min-height: 100px;
+			max-height: 300px;
+			margin-bottom: 20px;
+		}
+		input[type="submit"] {
+			background-color: #00d646;
+			border: #00d646 solid 1px;
+			color: black;
+			padding: 20px;
+			width: 40%;
+			margin: auto;
+			font-size: 15px;
+		}
+
+}

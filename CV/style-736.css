@@ -1,0 +1,62 @@
+/********* TABLET **********/
+@media (min-width: 736px) {
+	
+	.inizio p {
+		padding: 30px 80px;
+	}
+	.profilo {
+		background-color: white;
+		border-radius: 10px 10px 0px 0px;
+	}
+	.profilo img {
+		width: 400px;
+	}
+	
+
+/******** WORK EXPERIENCE **********/
+
+	.requadro h2 {
+		font-size: 24px;
+	}
+	.requadro p {
+		font-size: 14px;
+		letter-spacing: 6px;
+	}
+	.work {
+		padding: 50px;
+	}
+	
+	.b1, .b2, .b3 {
+		display: none;
+		/*left: 350px;*/
+		/*top: 5px;*/
+	}
+
+	.linea {
+		display: none;
+		position: absolute;
+		height: 5px;
+		border-right: solid 2px #00d646;
+		z-index: 100;
+		left: 346px;
+		
+	}
+
+
+/******* SKILLS & KNOWLEDGE ********/
+
+	.knowledge {
+		padding: 30px;
+	}
+
+	.skills p {
+		margin: 10px 0px;
+	}
+
+/******** STUDIES ***********/
+
+	.studies {
+		padding: 50px;
+	}
+	
+}

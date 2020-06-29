@@ -1,0 +1,58 @@
+/*********** DESKTOP *************/
+@media (min-width: 1024px){
+
+	.inizio p {
+		padding: 30px 100px;
+		color: black;
+	}
+
+/******** WORK EXPERIENCE **********/
+
+	.work {
+		padding: 80px 100px;
+		/*position: relative;*/
+	}
+	
+	.b1, .b2, .b3 {
+		left: 50%;
+		/*top: 30px;*/
+	}
+	
+	.linea {
+		display: initial;
+	/*	position: absolute;
+		height: 5px;
+	
+		border-right: solid 2px #00d646;
+		z-index: 100;
+		left: 50%;*/
+		
+	}
+	/* #computer {
+		position: absolute;
+		width: 80%;
+		height: 100vh;
+		z-index: 100;
+		margin: auto;
+		background-image: url(img/computer.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	} */
+/******* SKILLS & KNOWLEDGE ********/
+
+	.knowledge {
+		padding: 50px 100px;
+	}
+
+	.skills p {
+		margin: 20px 0px;
+	}
+
+/******** CONTACTS ********/
+
+	.far, .fab {
+		padding: 50px;
+	}
+
+}
